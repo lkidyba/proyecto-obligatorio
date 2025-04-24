@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avisos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+        }
+        
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            padding: 0;
+        }
+        
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        nav ul li a:hover, nav ul li a.active {
+            background-color: #1abc9c;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            margin-bottom: 60px;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        h1, h2 {
+            color: #2c3e50;
+        }
+        
+        .page-title {
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .materia {
+            margin-bottom: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        .materia h3 {
+            color: #3498db;
+        }
+        
+        ul.tareas {
+            list-style-type: circle;
+        }
+        
+        ul.tareas li {
+            margin-bottom: 8px;
+        }
+        
+        .fecha {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Organizador del Cuatrimestre</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="pagina avisos.html" class="active">Avisos</a></li>
+            <li><a href="sobre mi.html">Sobre mí</a></li>
+            <li><a href="materias 2025.html">Materias 2025</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h2 class="page-title">Avisos y Tareas Pendientes</h2>
+        <p>mis tareas pendientes de materias.</p>
+        
+        <div class="materia">
+            <h3>Diseño y Desarrollo Web</h3>
+            <ul class="tareas">
+                <li>Actividad obligatoria UVA1 <span class="fecha">(Fecha límite: 25/04/2025)</span></li>
+                <li>Actividad obligatoria UVA2 <span class="fecha">(Fecha límite: 25/04/2025)</span></li>
+            </ul>
+        </div>
+        
+        <div class="materia">
+            <h3>marketing</h3>
+            <ul class="tareas">
+                <li>repasar UVA3 para parcial <span class="fecha">(Fecha límite: 24/04/2025)</span></li>
+                <li>Estudiar UVA4</li>
+                <li>revisar material complementario esquemas marketing</li>
+            </ul>
+        </div>
+        
+        <div class="materia">
+            <h3>introduccion a la algoritmia</h3>
+            <ul class="tareas">
+                <li>Practicar codigo Python <span class="fecha">(Fecha límite: 30/04/2025)</span></li>
+                <li>Configurar entorno de trabajo</li>
+            </ul>
+        </div>
+        
+        <div class="materia">
+            <h3>sistemas de informacion</h3>
+            <ul class="tareas">
+                <li>Avanzar TP grupal <span class="fecha">(Fecha límite: 03/05/2025)</span></li>
+                <li>Estudiar conceptos de empresas</li>
+            </ul>
+        </div>
+        
+        <div class="materia">
+            <h3>Arquitectura de computadores</h3>
+            <ul class="tareas">
+                <li>Repasar circuitos logicos para parcial <span class="fecha">(Fecha límite: 01/05/2025)</span></li>
+                <li>terminar actividades UVA3</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Mi Organizador del Cuatrimestre</p>
+    </footer>
+</body>
+</html>
